@@ -83,7 +83,6 @@ const SchoolsPage: React.FC = () => {
               <h2 className="text-lg font-bold mb-2">{school.schoolName}</h2>
               <p className="text-sm text-gray-500 mb-1">{school.address}</p>
               <p className="text-sm text-gray-500 mb-1">{school.city}</p>
-              <p className="text-sm text-gray-500 mb-4">{school.email}</p>
               <button className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300">
                 Apply Now
               </button>
